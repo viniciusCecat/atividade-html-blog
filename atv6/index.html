@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 6 - To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="todo-app">
+        <h1>Lista de Tarefas</h1>
+        <p class="description">Adicione uma tarefa e clique em um item para remove-lo.</p>
+
+        <section class="todo-form" aria-label="Adicionar tarefa">
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Digite uma tarefa"
+                aria-label="Digite uma tarefa"
+            >
+            <button type="button" id="addTaskButton">Adicionar</button>
+        </section>
+
+        <ul id="taskList" aria-label="Lista de tarefas"></ul>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
